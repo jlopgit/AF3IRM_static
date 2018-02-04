@@ -1,0 +1,1 @@
+Static implementation of a website for AF3IRM NYC Chapter. The website is implemented using the Bootstrap framework-HTML, CSS.

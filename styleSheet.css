@@ -1,0 +1,130 @@
+
+.header{
+	
+	background-image: url("photos/af3irm_header.jpg");
+	background-size: cover;
+    background-position: center center;
+    height: 400px;
+	/*background-color: purple;*/
+}
+
+.navbar .navbar-brand{
+	
+	color: white;
+	border-bottom: solid white;
+}
+
+.navbar .navbar-nav{
+	
+	border-bottom: solid #F89929;
+}
+
+.navbar .navbar-nav a:hover{
+	
+	color: purple !important;
+    background-color: #F89929 !important;
+}
+
+.navbar .navbar-collapse {
+
+	text-align: center;
+ }
+
+.nav-link{
+
+	color: #F89929 !important;
+}
+
+.navbar .navbar-toggler{
+
+    border-color: #F89929 !important;
+}
+
+/*
+.navbar .navbar-toggler .navbar-toggler-icon{
+	
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+*/
+
+.header .jumbotron{
+	background: transparent;
+	color: white;
+}
+
+
+.fa-globe{
+	
+	font-size: 400px;
+}
+
+.aboutBody{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.aboutBody .aboutLogo{
+	
+	width: 320px;
+	height: 350px;`
+}
+
+.contactUsBody{
+
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.contactUsBody a{
+	
+	color: black !important
+}
+
+.contactUsBody .contactUsText{
+	
+	margin-bottom: 30px;
+}
+
+.contactUsBody .contactUsSocialMedia{
+	
+	margin-bottom: 30px;
+}
+
+.contactUsBody .contactUsMap .mapImage{
+
+	max-width: 600px;	
+	width: 100%;
+}
+
+.footer{
+	
+	background-color: #370365;
+}
+
+.footer p{
+	
+	color: #F89929;
+}
+
+.footer a{
+
+	color: #F89929 !important;
+}
+
+@media (max-width: 978px) {
+      
+	.header{
+
+		background-position: right center;
+	} 
+}
+
+@media (max-width: 768px) {
+       
+    .header{
+
+		background-position: 75% 50%;
+	} 
+}
+
